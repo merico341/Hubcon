@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --color-*: initial;
+
+  --color-gray: #181c25;
+  --color-light-gray: #2c303b;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-light-blue: #407eeb;
+
+  --color-marketplace: #0000ff;
+  --color-leiloes-claro: #FFA500;
+  --color-leiloes-escuro: #AC7217;
+  --color-precos: #A020F0;
+
+  --color-preco: #3cff00;
+
+  --color-trans-black: rgba(0, 0, 0, .8);
+  --color-trans-white: rgba(200, 200, 200, .8);
+}
+
