@@ -16,8 +16,7 @@
   --color-blue-2: #407eeb;
 
   --color-blue-dark-1: #1F51F5;
-
-  
+  --color-blue-dark-2: #3068c4;
 
   --color-orange-1: #FFA500;
 
@@ -25,28 +24,24 @@
 
   /* body bg */
   --color-gray-1: #1E1E1E;
-
   /* Nav bg Div bg*/ 
   --color-gray-2: #131720;
-
   /* Search bg */
   --color-gray-3: #2B303B;
-
   /* Icon bg-box*/
   --color-gray-4: #16252e;
   
   /* Icon bg-hammer*/
   --color-gold-1: #9769057A;
-
   --color-gold-2: #ECB030;
 
   /* Icon bg-stackes*/
   --color-purple-1: #2B162E;
-
   --color-purple-2: #7a3bc9;
   
   /* Trans bg */
-  --color-trans-black: rgba(0, 0, 0, .33);
+  --color-trans-black-1: rgba(0, 0, 0, .33);
+  --color-trans-black-2: rgba(0, 0, 0, .66);
 
   /* custom drop shadow card */
   --shadow-card: 0px 4px 4px 2px;
