@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --color-*: initial;
+
+  --color-green: #00ff00;
+
+  /* Logo  */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-blue-1: #3C83F6;
+  --color-blue-2: #407eeb;
+
+  --color-blue-dark-1: #1F51F5;
+
+  
+
+  --color-orange-1: #FFA500;
+
+  --color-ash-1: #A79797;
+
+  /* body bg */
+  --color-gray-1: #1E1E1E;
+
+  /* Nav bg Div bg*/ 
+  --color-gray-2: #131720;
+
+  /* Search bg */
+  --color-gray-3: #2B303B;
+
+  /* Icon bg-box*/
+  --color-gray-4: #16252e;
+  
+  /* Icon bg-hammer*/
+  --color-gold-1: #9769057A;
+
+  --color-gold-2: #ECB030;
+
+  /* Icon bg-stackes*/
+  --color-purple-1: #2B162E;
+
+  --color-purple-2: #7a3bc9;
+  
+  /* Trans bg */
+  --color-trans-black: rgba(0, 0, 0, .33);
+
+  /* custom drop shadow card */
+  --shadow-card: 0px 4px 4px 2px;
+
+  --color-shadow-blue: #143263ff           ;
+  --color-shadow-gold: #FF9D0040;
+  --color-shadow-purple: #7A3BC940;
+}

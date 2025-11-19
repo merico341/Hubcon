@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -6,75 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hubcon</title>
   </head>
-  <body class="bg-gray">
-
-    <nav class="bg-gray p-4 pt-4 gap-1">
-
-      <ul class="flex justify-start items-center">
+  <body class="bg-gray-1  text-white">
+    <nav class="bg-gray-2 flex justify-around w-screen">
+      <ul class="font-montserrat w-[1440px] h-[86px] flex justify-around items-center">
         <li>
-          <img class="h-8 ml-15 mr-53" src="/image.psd.png" alt="logo">
+          <a href="#" class="font-bold text-[36px] tracking-[-6%] text-white">HubCom</a>
         </li>
-
-        <li>
-          <form class="flex items-center gap-1 text-light-blue bg-light-gray p-4 pt-3 pb-3 rounded-xl mr-20">
-            <a href="#" class="text-[18px]"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <input class="font-medium w-[500px] h-full text-[18px] focus:outline-none" maxlength="50"  placeholder="Buscar Cartas..." type="text">
-          </form>
+        <li>  
+            <form class="w-[549px] h-14 rounded-[10px] bg-gray-3 text-blue-1 flex items-center justify-start gap-2">
+                <a class="ml-5" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input class=" w-[475px] text-base focus:outline-none" maxlength="100"  placeholder="Buscar Cartas..." type="text">
+            </form>
         </li>
-        
-        <li>
-          <div class="flex gap-4 justify-around items-center text-white w-[250px]">
-            <a class="" href="#">
-              Cartas
-            </a>
-            <a class="" href="#">
-              Leilões
-            </a>
-            <a class="" href="#">
-              <i class="fa-solid fa-cart-shopping"></i>
-            </a>
-          </div>
-        </li>
-
-        <li>
-          <a class="bg-light-blue pb-1.25 pt-1.25 pl-2.5 pr-2.5 rounded-lg mr-15 text-white" href="#">Entrar</a>
+        <li class="flex gap-1.5">
+            <ul class="font-montserrat flex gap-4 justify-around items-center text-white w-[250px]">
+              <li>
+                <a href="#">Colecionávies</a>
+              </li>
+              <li>
+                <a href="#">Leilões</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a class="pl-4 pr-4 pt-2.5 pb-2.5 bg-blue-1 rounded-[10px] hover:bg- transition-colors" href="#">Entrar</a>
+              </li>
+            </ul>
         </li>
       </ul>
-      
     </nav>
 
-    <main>
-      <section id="background" class="h-[600px] bg-top bg-cover bg-no-repeat flex items-center text">
+    <section class="h-[600px] tracking-[-5%] bg-[url(./../assets/banner.jpg)] bg-top bg-cover bg-no-repeat flex items-center ">
 
-        <div class="h-full w-full bg-linear-to-l from-transparent to-black">
+      <div class="h-full w-full bg-linear-to-r from-black to-transparent flex justify-center">
 
-          <div class=" flex flex-col ml-15 mt-30 text-white">
-
-            <h1 class="text-7xl font-bold">
-              O maior marketplace <br>de
-              <span class="bg-linear-to-r from-light-blue to-leiloes-claro bg-clip-text text-transparent">colecionáveis</span>
+        <div class="w-[1310px]">
+          <div class="flex flex-col justify-center h-full">
+            <h1 class="text-7xl font-bold tracking-[-6%]">
+              O maior marketplace<br>de
+              <span class="tracking-[-6%] bg-linear-to-r from-blue-1 to-orange-1 bg-clip-text text-transparent">colecionáveis</span>
             </h1>
-
             <h2 class="text-[22px] mt-2.5">Compre, venda e participe de leilões das cartas mais raras do mercado.</h2>
-
-            <div class="mt-10">
-              <a class="p-3 pt-2 pb-2 mr-2 bg-light-blue rounded-lg font-bold" href="#marketplace">
-                Explorar Marketplace <i class="fa-solid fa-arrow-right text-xs"></i>
-              </a>
-              <a class="p-3 pt-2 pb-2 bg-trans-black rounded-lg font-bold border-trans-white border" href="#leiloes">
-                Ver Leilões
-              </a>
+            <div class="mt-7 flex gap-4 font-bold">
+              <a class="pt-1.75 pb-1.75 pr-2.75 pl-2.75 bg-blue-1 font-bold rounded-[10px]" href="#">Explorar Marketplace <i class="fa-solid fa-arrow-right text-[15px]"></i></a>
+              <a class="pt-1.75 pb-1.75 pl-6 pr-6 rounded-[10px] border border-white bg-trans-black" href="#">Ver Leilões</a>
             </div>
-
           </div>
-
         </div>
 
-      </section>
+      </div>
+
+    </section>
+
+    <section class="pt-17 pb-9 flex justify-center items-center gap-13">
       
+      <div class="w-[388px] h-[200px] bg-gray-2 rounded-[25px] flex flex-col items-center text-center 
+      hover:shadow-card hover:shadow-shadow-blue transition-shadow duration-250">
+        <div class="w-13 h-13 m-2 bg-gray-4 rounded-full text-blue-2 flex justify-center items-center ">
+          <i class="fa-solid fa-box-open text-[25px]"></i>
+        </div>
+        <h3 class="font-bold text-xl mb-4.5">Marketplace</h3>
+        <p class="text-[18px] text-ash-1 mr-10 ml-10">Compare preços de múltiplos vendedores e escolha a melhor oferta</p>
+      </div>    
+
+      <div class="w-[388px] h-[200px] bg-gray-2 rounded-[25px] flex flex-col items-center text-center 
+      hover:shadow-card hover:shadow-shadow-gold transition-shadow duration-250">
+        <div class="w-13 h-13 m-2 bg-gold-1 rounded-full text-gold-2 flex justify-center items-center ">
+          <i class="fa-solid fa-gavel text-[25px]"></i>
+        </div>
+        <h3 class="font-bold text-xl mb-4.5">Leilões</h3>
+        <p class="text-[18px] text-ash-1 mr-10 ml-10">Participe de leilões de cartas raras e monte sua coleção dos sonhos</p>
+      </div>    
+
+      <div class="w-[388px] h-[200px] bg-gray-2 rounded-[25px] flex flex-col items-center text-center
+      hover:shadow-card hover:shadow-shadow-purple transition-shadow duration-250">
+        <div class="w-13 h-13 m-2 bg-purple-1 rounded-full text-purple-2 flex justify-center items-center ">
+          <i class="fa-solid fa-arrow-trend-up text-[25px]"></i>
+        </div>
+        <h3 class="font-bold text-xl mb-4.5">Preços Competitivos</h3>
+        <p class="text-[18px] text-ash-1 mr-10 ml-10">Sistema de comparação em tempo real garante os melhores preços</p>
+      </div>    
+
+    </section>
+
+    <main class="">
+      <div id="root"></div>
     </main>
 
-    <script type="module" src="../main.jsx"></script>
-    <script src="https://kit.fontawesome.com/ef4068945c.js" crossorigin="anonymous"></script>
+    <footer>
+      
+    </footer>
+
+    <script type="module" src="/src/main.jsx"></script>
+    <script
+      src="https://kit.fontawesome.com/ef4068945c.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
