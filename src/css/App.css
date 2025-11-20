@@ -6,7 +6,8 @@
 
   --color-*: initial;
 
-  --color-green: #00ff00;
+  --color-green: #3CFF00;
+  --color-red: #ff0000;
 
   /* Logo  */
   --color-white: #ffffff;
@@ -46,7 +47,23 @@
   /* custom drop shadow card */
   --shadow-card: 0px 4px 4px 2px;
 
-  --color-shadow-blue: #143263ff           ;
+  --color-shadow-blue: #143263ff;
   --color-shadow-gold: #FF9D0040;
   --color-shadow-purple: #7A3BC940;
+
+  /* Tag colors */
+  --color-tag-red: #DC190A;
+  --color-tag-yellow: #FF9D00;
+
+  --color-tag-green-1: #00FF37;
+  --color-tag-green-2: #0C4A00;
+
+  --color-tag-cyan-1: #00F6FF;
+  --color-tag-cyan-2: #009499;
+  
+  --color-tag-purple-1: #7300FF;
+  --color-tag-purple-2: #260073;
+
+  --color-tag-blue: #0004FF;
+  --color-tag-wine: #990038;
 }
