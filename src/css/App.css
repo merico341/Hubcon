@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+@import "./slider.css";
 
 @theme {
   --font-montserrat: "Montserrat", sans-serif;
@@ -27,7 +28,7 @@
   --color-gray-1: #1E1E1E;
   /* Nav bg Div bg*/ 
   --color-gray-2: #131720;
-  /* Search bg */
+  /* Search bg popover bg */
   --color-gray-3: #2B303B;
   /* Icon bg-box*/
   --color-gray-4: #16252e;
@@ -44,7 +45,7 @@
   --color-trans-black-1: rgba(0, 0, 0, .33);
   --color-trans-black-2: rgba(0, 0, 0, .66);
 
-  /* custom drop shadow card */
+  /* custom box shadow card */
   --shadow-card: 0px 4px 4px 2px;
 
   --color-shadow-blue: #143263ff;

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+.slider {
+    appearance: none;
+    -webkit-appearance: none; 
+    @apply w-45 h-1.25 flex items-center justify-center;
+}
+
+/* firefox */
+
+/* trilha */
+.slider::-moz-range-track {
+    @apply cursor-pointer;
+}
+
+/* bolinha */
+.slider::-moz-range-thumb {
+    @apply w-3.5 h-3.5 rounded-full cursor-pointer border-none;
+}
+
+/* chromium */
+
+/* TRACK - trilha */
+.slider::-webkit-slider-runnable-track {
+    appearance: none;
+    -webkit-appearance: none; 
+    @apply h-1;
+}
+
+/* THUMB - bolinha */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    @apply w-3.5 h-3.5 rounded-full cursor-pointer -mt-1.25;
+    
+}
+
+@utility range-track-blue {
+    &::-moz-range-track {
+        background-color: #3C83F6;  /* !blue-1 */
+    }
+    
+    &::-webkit-slider-runnable-track {
+        background-color: #3C83F6;  /* !blue-1 */
+    }
+}
+
+@utility range-progress-yellow {
+    &::-moz-range-progress {
+        background-color: #FF9D00;  /* ?Tag-yellow */
+    }
+}
+
+@utility range-ball-yellow {
+    &::-moz-range-thumb {
+        background-color: #FF9D00;  /* ?Tag-yellow */
+    }
+    
+    &::-webkit-slider-thumb {
+        background-color: #FF9D00;  /* ?Tag-yellow */
+    }
+}

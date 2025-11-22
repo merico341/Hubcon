@@ -50,7 +50,7 @@ export default function Text({
     return React.createElement(
         as,
         {
-            className: TextVariants({type, boldness, color, size, className, ...props})
+            className: TextVariants({className, type, boldness, color, size, ...props})
         },
         children
     )

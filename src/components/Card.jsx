@@ -1,5 +1,5 @@
 import React from "react";
-import { cva, } from "class-variance-authority";
+import { cva } from "class-variance-authority";
 
 export const cardVariants = cva(`
     rounded-[10px] bg-gray-2 text-white transition duration-300
@@ -17,7 +17,7 @@ export const cardVariants = cva(`
             shadow: {
                 none: '',
                 blue: 'hover:shadow-shadow-blue',
-                gold: 'hover:shadow-shadow-gold',
+                yellow: 'hover:shadow-shadow-gold',
                 purple: 'hover:shadow-shadow-purple'
             },
             animation: {
