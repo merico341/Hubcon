@@ -8,6 +8,7 @@ import Button from '../components/Button'
 import Slider from '../components/Slider'
 import Drop from '../components/Drop'
 import Banner from './Banner'
+import Intermediary from './intermediary'
 
 export default function Vitrine() {
   const [count, setCount] = useState(0);
@@ -15,9 +16,10 @@ export default function Vitrine() {
   const valor = 250;
 
   return (
-    <main className='flex gap-8'>
+    <>
       <Banner></Banner>
-    </main>
+      <Intermediary></Intermediary>
+    </>
   )
 }
 

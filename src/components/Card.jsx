@@ -2,13 +2,14 @@ import React from "react";
 import { cva } from "class-variance-authority";
 
 export const cardVariants = cva(`
-    rounded-[10px] bg-gray-2 text-white transition duration-300
+    bg-gray-2 text-white transition-shadow duration-300
     relative
     `, {
         variants: {
             size: {
                 none: '',
-                md: 'w-3xs h-111',
+                sm: 'w-97 h-50',
+                md: 'w-3xs h-111'
             },
             drop: {
                 none: '',
@@ -17,19 +18,25 @@ export const cardVariants = cva(`
             shadow: {
                 none: '',
                 blue: 'hover:shadow-shadow-blue',
-                yellow: 'hover:shadow-shadow-gold',
+                gold: 'hover:shadow-shadow-gold',
                 purple: 'hover:shadow-shadow-purple'
             },
             animation: {
                 none: '',
                 pop: "hover:-translate-y-4"
+            },
+            rounded: {
+                none: '',
+                sm: 'rounded-[10px]',
+                md: 'rounded-[25px]'
             }
         },
         defaultVariants: {
             size: 'none',
             drop: 'none',
             shadow: 'none',
-            animation: 'pop'
+            animation: 'none',
+            rounded: 'none'
         }
     });
 
@@ -39,6 +46,7 @@ export default function Card({
     drop,
     shadow,
     animation,
+    rounded,
     children,
     className,
     ...props
@@ -46,7 +54,7 @@ export default function Card({
     return React.createElement(
         as,
         {
-            className: cardVariants({size, drop, shadow, animation, className, ...props})
+            className: cardVariants({size, drop, shadow, animation, rounded, className, ...props})
         },
         children
     )

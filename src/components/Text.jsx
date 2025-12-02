@@ -16,6 +16,7 @@ export const TextVariants = cva(`
         },
         color: {
             white: "text-white",
+            ash: "text-ash-1",
             black: "text-black",
             green: "text-green",
             red: "text-red"
@@ -31,6 +32,7 @@ export const TextVariants = cva(`
         },
         tracking: {
             none: "tracking-normal",
+            standart: "tracking-[-5%]",
             banner: "tracking-[-6%]"
         }
     },
@@ -39,7 +41,7 @@ export const TextVariants = cva(`
         boldness: "normal",
         color: "white",
         size: "md",
-        tracking: 'none'
+        tracking: 'standart'
     }
 })
 
