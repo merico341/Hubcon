@@ -6,9 +6,14 @@ export const ImgVariance = cva(`
     `, {
     variants: {
         size: {
-            card: "w-48 h-63" 
+            card: "w-48 h-63",
+            banner: "h-full w-full"
+        },
+        cover: {
+            banner: "object-cover object-top"
         },
         radius: {
+            none: "rounded-none",
             md: "rounded-[10px]"
         }
     },
@@ -22,6 +27,8 @@ export default function Img({
     url,
     desc,
     size,
+    cover,
+    radius,
     className,
     ...props
 }) {
@@ -29,7 +36,7 @@ export default function Img({
         <img 
         src={url}
         alt={desc}
-        className={ ImgVariance({size, className}) }
+        className={ ImgVariance({size, cover, radius, className}) }
         {...props}
         />
     )

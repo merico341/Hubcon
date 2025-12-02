@@ -26,14 +26,20 @@ export const TextVariants = cva(`
             md: "text-[16px]",
             md2: "text-[18px]",
             lg: "text-[20px]",
-            lg2: "text-[22px]"
+            lg2: "text-[22px]",
+            h1: "text-7xl"
+        },
+        tracking: {
+            none: "tracking-normal",
+            banner: "tracking-[-6%]"
         }
     },
     defaultVariants: {
         type: "normal",
         boldness: "normal",
         color: "white",
-        size: "md"
+        size: "md",
+        tracking: 'none'
     }
 })
 
@@ -44,13 +50,14 @@ export default function Text({
     size,
     type,
     boldness,
+    tracking,
     color,
     ...props
 }) {
     return React.createElement(
         as,
         {
-            className: TextVariants({className, type, boldness, color, size, ...props})
+            className: TextVariants({className, type, boldness, color, size, tracking, ...props})
         },
         children
     )

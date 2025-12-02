@@ -6,5 +6,5 @@ import Vitrine from './core-components/Vitrine.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Vitrine />
-  </StrictMode>,
+  </StrictMode>
 )

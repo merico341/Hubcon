@@ -6,8 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hubcon</title>
   </head>
-  <body class="bg-gray-1 h-screen flex justify-center items-center">
-    <div id="root"></div>
+  <body class="bg-gray-1 h-screen">
+    <nav class="bg-gray-2 flex justify-around w-full">
+      <ul class="font-montserrat w-[1440px] h-[86px] flex justify-around items-center">
+        <li>
+          <a href="#" class="font-bold text-[36px] tracking-[-6%] text-white">HubCom</a>
+        </li>
+        <li>  
+            <form class="w-[549px] h-14 rounded-[10px] bg-gray-3 text-blue-1 flex items-center justify-start gap-2">
+                <a class="ml-5" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input class=" w-[475px] text-base focus:outline-none" maxlength="100"  placeholder="Buscar Cartas..." type="text">
+            </form>
+        </li>
+        <li class="flex gap-1.5">
+            <ul class="font-montserrat flex gap-4 justify-around items-center text-white w-[250px]">
+              <li>
+                <a class="group" href="#">
+                  Colecionávies
+                  <span class="block h-0.5 max-w-0 bg-blue-dark-1 group-hover:max-w-full transition-all duration-500"></span>
+                </a>
+              </li>
+              <li>
+                <a class="group" href="#">
+                  Leilões
+                  <span class="block h-0.5 max-w-0 bg-blue-dark-1 group-hover:max-w-full transition-all duration-500"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-cart-shopping hover:text-ash-1"></i></a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a class="pl-4 pr-4 pt-2.5 pb-2.5 bg-blue-1 rounded-[10px] hover:bg-blue-dark-2 transition-colors text-white" href="#">Entrar</a>
+              </li>
+            </ul>
+        </li>
+      </ul>
+    </nav>
+    <div class="w-full" id="root"></div>
 
     <script type="module" src="/src/main.jsx"></script>
     <script
