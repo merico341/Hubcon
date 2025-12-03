@@ -32,21 +32,22 @@ export default function Seller({
 
         <div className="flex items-center space-x-8 text-sm shrink-0">
           
-          <div className="flex flex-col items-center sm:block">
-            <span className="text-gray-400 text-xs sm:text-sm">Condição: {condicao}</span>
-          </div>
-
-          <div className="flex flex-col items-center sm:block">
-            <span className="text-gray-400 text-xs sm:text-sm">Estoque: 
-              {estoque} un.
-            </span>
-          </div>
-          
-          <div className="flex flex-col items-center sm:block">
-            <span className="text-gray-400 text-xs sm:text-sm">Preço: 
-              R${preco}
-            </span>
-          </div>
+          <ul className='sm:flex sm:gap-10 block'>
+            <li className="flex flex-col items-center sm:block">
+                <span className="text-gray-400 text-xs sm:text-sm">Condição: {condicao}</span>
+            </li>
+            <li className="flex flex-col items-center sm:block">
+                <span className="text-gray-400 text-xs sm:text-sm">Estoque:
+                {estoque} un.
+                </span>
+            </li>
+            
+            <li className="flex flex-col items-center sm:block">
+                <span className="text-gray-400 text-xs sm:text-sm">Preço:
+                R${preco}
+                </span>
+            </li>
+          </ul>
     
           <button 
             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-200 ml-4 whitespace-nowrap border border-tag-yellow"

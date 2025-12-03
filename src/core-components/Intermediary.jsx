@@ -5,7 +5,7 @@ import Card from "../components/Card";
 export default function Intermediary() {
     return (
         
-        <section className="bg-gray-1 pt-17 pb-9 flex justify-center items-center gap-13">
+        <section className="bg-gray-1 pt-17 pb-9 flex md:flex-row flex-col justify-center items-center gap-13">
 
             <Card size={'sm'} drop={'shadow'} shadow={'blue'} rounded={'md'} className={'flex flex-col items-center text-center'}>
                 <div className="w-13 h-13 m-2 mt-3 bg-gray-4 rounded-full text-blue-2 flex justify-center items-center">

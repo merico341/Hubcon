@@ -10,7 +10,7 @@ export const cardVariants = cva(`
                 none: '',
                 sm: 'w-97 h-50',
                 md: 'w-3xs h-111',
-                lg: 'w-302 h-153'
+                lg: 'max-w-302 h-max-253'
             },
             drop: {
                 none: '',

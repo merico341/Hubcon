@@ -50,7 +50,7 @@ export default function Banner() {
                             Compre, venda e participe de leilões das cartas mais raras do mercado.
                         </Text>
                         <div className={"mt-7 flex gap-4 font-bold"}>
-                            <a className="pt-1.75 pb-1.75 pr-2.75 pl-2.75 bg-blue-1 font-bold rounded-[10px] hover:bg-blue-dark-2" href="#">
+                            <a  className="pt-1.75 pb-1.75 pr-2.75 pl-2.75 bg-blue-1 font-bold rounded-[10px] hover:bg-blue-dark-2" href="#marketplade">
                                 Explorar Marketplace <i className="fa-solid fa-arrow-right text-[15px]"></i>
                             </a>
                             <a className="pt-1.75 pb-1.75 pl-6 pr-6 rounded-[10px] border border-white bg-trans-black-1 hover:bg-trans-black-2" href="#">

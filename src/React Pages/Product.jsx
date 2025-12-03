@@ -9,7 +9,7 @@ import Seller from "../core-components/Seller";
 export default function Product() {
     return (
         <div className="flex flex-col items-center justify-center mt-2">
-            <Card as="main" size={'lg'} className={'flex gap-2 p-3 border border-blue-1'} rounded={'md'}>
+            <Card as="main" size={'lg'} className={'flex flex-col sm:flex-row gap-2 p-3 border border-blue-1'} rounded={'md'}>
                 <Img size={'md'} url={'https://images.ygoprodeck.com/images/cards/89631139.jpg'}></Img>
             
                 <div className="flex flex-col gap-3">
@@ -21,7 +21,6 @@ export default function Product() {
 
                     <Text as="h1" boldness={'bold'} className={'text-[35px] mt-3'}>Detalhes da Carta</Text>
                     <div>
-
                         <Text as="h2" color='ash' className={'text-justify'}>Nome: Dragão Branco De Olhos Azuis</Text>
                         <Text as="h2" color='ash' className={'text-justify'}>Tipo: Dragão/Normal</Text>
                         <Text as="h2" color='ash' className={'text-justify'}>Estrelas: 7 estrelas</Text>

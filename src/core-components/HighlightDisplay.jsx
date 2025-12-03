@@ -13,7 +13,7 @@ export default function HighlightDisplay() {
             </div>
 
             {/* row */}
-            <div className="flex items-center justify-center gap-10 w-325.5 m-auto ">
+            <div className="flex flex-col sm:flex-row items-center gap-10 w-full sm:max-w-7xl mx-auto">
                 <Display type='comum' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
                 <Display type='comum' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
                 <Display type='comum' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>

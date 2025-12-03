@@ -6,6 +6,7 @@ import Home from './React Pages/Home.jsx'
 import Auction from './React Pages/Auction.jsx'
 import itens from './React Pages/Itens.jsx'
 import Product from './React Pages/Product.jsx'
+import Cart from './React Pages/Cart.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

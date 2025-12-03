@@ -6,6 +6,7 @@ export const ImgVariance = cva(`
     `, {
     variants: {
         size: {
+            xs: "w-16 h-19",
             sm: "w-48 h-63",
             md: "w-92 h-128",
             banner: "h-full w-full"
