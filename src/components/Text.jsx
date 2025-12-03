@@ -28,6 +28,7 @@ export const TextVariants = cva(`
             md2: "text-[18px]",
             lg: "text-[20px]",
             lg2: "text-[22px]",
+            lg3: "text-[24px]",
             h1: "text-7xl"
         },
         tracking: {
