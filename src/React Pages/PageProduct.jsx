@@ -6,7 +6,7 @@ import Text from "../components/Text";
 import Button from "../components/Button";
 import Seller from "../core-components/Seller";
 
-export default function Product() {
+export default function PageProduct() {
     return (
         <div className="flex flex-col items-center justify-center mt-2">
             <Card as="main" size={'lg'} className={'flex flex-col sm:flex-row gap-2 p-3 border border-blue-1'} rounded={'md'}>

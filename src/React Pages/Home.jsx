@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../css/App.css'
 import Banner from '../core-components/Banner'
-import Intermediary from '../core-components/intermediary.jsx'
+import Intermediary from '../core-components/Intermediary.jsx'
 import HighlightDisplay from '../core-components/HighlightDisplay.jsx'
 import AuctionDisplay from '../core-components/AuctionDisplay.jsx'
 

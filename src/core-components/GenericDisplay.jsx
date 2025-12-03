@@ -6,11 +6,13 @@ export default function GenericDisplay() {
   return (
     <>
         {/* row */}
-        <div className="flex flex-col sm:flex-row items-center gap-10 w-full sm:max-w-7xl mx-auto">
+        <div className="flex flex-col flex-wrap grow sm:flex-row items-center gap-10 w-full sm:max-w-7xl mx-auto">
             <Filter shadow={'gold'}></Filter>
             <Display type='time' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
-            <Display type='time' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
-            <Display type='time' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
+            <Display type='comum' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
+            <Display type='raro' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
+            <Display type='epico' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
+            <Display type='super' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
         </div>
     </>
   );
