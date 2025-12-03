@@ -4,8 +4,8 @@ import Text from "../components/Text";
 
 export default function HighlightDisplay() {
     return (
-        <>
-            <div className="flex items-center justify-center mb-10">
+        <div className="flex flex-col gap-10">
+            <div className="flex items-center justify-center">
                 <Text boldness={'bold'} className={'text-[36px]'}>
                     CARTAS EM DESTAQUE
                     <span class="block h-0.5 bg-tag-yellow"></span>
@@ -19,6 +19,6 @@ export default function HighlightDisplay() {
                 <Display type='comum' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
                 <Display type='comum' url='https://images.ygoprodeck.com/images/cards/33396948.jpg' condicion='Perfeita' shadow='blue' vendedor='2' price='250'>Exodia o Proibido</Display>
             </div>
-        </>
+        </div>
     )
 }
