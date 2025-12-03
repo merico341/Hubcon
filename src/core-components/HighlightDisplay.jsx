@@ -8,7 +8,7 @@ export default function HighlightDisplay() {
             <div className="flex items-center justify-center">
                 <Text boldness={'bold'} className={'text-[36px]'}>
                     CARTAS EM DESTAQUE
-                    <span class="block h-0.5 bg-tag-yellow"></span>
+                    <span class="block h-0.5 bg-blue-dark-1"></span>
                 </Text>
             </div>
 

@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client' 
 import App from './core-components/App.jsx'
-import Vitrine from './core-components/Vitrine.jsx'
+import Home from './React Pages/Home.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Vitrine />
+    <Home />
   </StrictMode>
 )

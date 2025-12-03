@@ -7,7 +7,7 @@ export default function AuctionDisplay() {
     <div className="flex flex-col gap-10 mt-10">
         <div className="flex items-center justify-center ">
             <Text boldness={"bold"} className={"text-[36px]"}>
-                CARTAS EM DESTAQUE
+                LEILÕES ATIVOS
                 <span class="block h-0.5 bg-tag-yellow"></span>
             </Text>
         </div>
