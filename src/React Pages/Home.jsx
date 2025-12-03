@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import '../css/App.css'
 import Banner from '../core-components/Banner'
-import Intermediary from '../core-components/intermediary'
-import HighlightDisplay from '../core-components/HighlightDisplay'
-import AuctionDisplay from '../core-components/AuctionDisplay'
+import Intermediary from '../core-components/intermediary.jsx'
+import HighlightDisplay from '../core-components/HighlightDisplay.jsx'
+import AuctionDisplay from '../core-components/AuctionDisplay.jsx'
 
 export default function Home() {
   const [count, setCount] = useState(0);
