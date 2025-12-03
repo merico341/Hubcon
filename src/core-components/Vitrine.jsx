@@ -9,7 +9,7 @@ import Slider from '../components/Slider'
 import Drop from '../components/Drop'
 import Banner from './Banner'
 import Intermediary from './intermediary'
-import Display from './Display'
+import HighlightDisplay from './HighlightDisplay'
 
 export default function Vitrine() {
   const [count, setCount] = useState(0);
@@ -20,7 +20,7 @@ export default function Vitrine() {
     <>
       <Banner></Banner>
       <Intermediary></Intermediary>
-      <Display></Display>
+      <HighlightDisplay></HighlightDisplay>
     </>
   )
 }
