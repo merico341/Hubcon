@@ -59,7 +59,19 @@ export default function Banner() {
                         </div>
                     </div>
 
-                    
+                    {/* BOLINHA */}
+                    <div className="absolute bottom-6 bg-trans-black-2 flex  gap-1 p-2 rounded-2xl">
+                        {list.map((_, i) => (
+                            <button
+                                key={i}
+                                onClick={() => setAtual(i)}
+                                className={`w-3 h-3 rounded-full transition-all duration-300 border border-white` +
+                                    (atual === i ? 'bg-white scale-125 border-2 border-blue-dark-2' : 'bg-white/50')
+                                }
+                            ></button>
+                        ))
+                        }
+                    </div>
                     <Button size={'banner'} color={'transparent'} rounded={'none'} hover={'TtoB'}
                     onClick={next}><i className="fa-solid fa-angle-right"></i></Button>
                 </div>
