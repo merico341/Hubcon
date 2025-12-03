@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hubcon</title>
   </head>
-  <body class="bg-gray-1 h-full">
+  <body class="bg-gray-1 h-full overscroll-contain scroll-smooth">
     <nav class="bg-gray-2 flex justify-around w-full sticky top-0 z-50">
       <ul class="font-montserrat w-[1440px] h-[86px] flex justify-around items-center">
         <li>
@@ -44,7 +44,46 @@
         </li>
       </ul>
     </nav>
+
     <div class="w-full" id="root"></div>
+
+    <footer class="bg-black w-full h-66 m-10 flex flex-col items-center justify-center gap-5 pb-5 text-ash-2">
+
+      <div class="flex items-center justify-center gap-22 ">
+        <ul class="underline">
+          <li><a href="#banner">Inicio</a></li>
+          <li><a href="#">Leilões</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Marketplace</a></li>
+        </ul>
+        
+        <ul class="underline">
+          <li><a href="#">Trocas</a></li>
+          <li><a href="#">Devoluções</a></li>
+          <li><a href="#">Assinaturas</a></li>
+          <li><a href="#">Contrato de Vendas</a></li>
+        </ul>
+        
+        <ul class="underline">
+          <li><a href="#">Regulamentos</a></li>
+          <li><a href="#">Termos e Condições</a></li>
+          <li><a href="#">Políticas de Cookies</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+
+        <div class="flex flex-col items-center justify-center gap-1">
+          <ul class="flex text-2xl gap-1">
+            <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://gmail.com"><i class="fa-solid fa-people-group"></i></a></li>
+          </ul>
+          <button class="p-7 pt-3 pb-3 bg-tag-yellow text-white rounded-[10px]">CONTATE-NOS</button>
+        </div>
+      </div>
+
+      <h4 class="text-white font-bold">© 2024 HubCom. Todos os direitos reservados.</h4>
+      
+    </footer>
 
     <script type="module" src="/src/main.jsx"></script>
     <script

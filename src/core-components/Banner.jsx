@@ -26,7 +26,7 @@ export default function Banner() {
 
     return (
         <>
-            <section className={`h-150 w-full tracking-[-5%] flex items-center justify-center relative
+            <section id="banner" className={`h-150 w-full tracking-[-5%] flex items-center justify-center relative
             bg-top bg-cover bg-no-repeat transition-all`}
             style={{
                 backgroundImage: `url(${list[atual]})`,
