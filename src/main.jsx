@@ -8,6 +8,6 @@ import Product from './React Pages/Product.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Auction />
+    <Home />
   </StrictMode>
 )
