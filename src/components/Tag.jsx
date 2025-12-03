@@ -3,8 +3,7 @@ import { cva } from "class-variance-authority";
 import Text from "./Text";
 
 export const TagVariants = cva(`
-    w-21 h-5 rounded-[10px] flex items-center justify-center absolute
-    top-3 right-3.5
+    rounded-[10px] flex items-center justify-center 
     `, {
         variants: {
             color: {
@@ -14,10 +13,20 @@ export const TagVariants = cva(`
                 cyan: "bg-linear-to-r from-tag-cyan-1 to-tag-cyan-2",
                 purple: "bg-linear-to-r from-tag-purple-1 to-tag-purple-2",
                 sr: "bg-linear-to-r from-tag-blue to-tag-wine",
+            },
+            size: {
+                sm: 'w-21 h-5',
+                md: 'w-29 h-8.5'
+            },
+            display: {
+                abs: "absolute top-3 right-3.5",
+                normal: ''
             }
         },
         defaultVariants: {
-            color: "yellow"
+            color: "yellow",
+            size: 'sm',
+            display: 'abs'
         }
 })
 
@@ -25,6 +34,8 @@ export default function Tag({
     children,
     type,
     color,
+    size,
+    display,
     className,
     ...props
 }) {
@@ -60,7 +71,7 @@ export default function Tag({
     }
 
     return (
-        <div className={TagVariants({color, className, ...props})}>
+        <div className={TagVariants({color, display, size, className, ...props})}>
             <Text boldness={'bold'} size={"sm"}>
                 {children}
             </Text>

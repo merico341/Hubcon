@@ -4,10 +4,87 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="refresh" content="0; url=/src/pages/home.html" />
     <title>hubcon</title>
   </head>
-  <body class="bg-gray">
+  <body class="bg-gray-1 h-full overscroll-contain scroll-smooth">
+    <nav class="bg-gray-2 flex justify-around w-full sticky top-0 z-50">
+      <ul class="font-montserrat w-[1440px] h-[86px] flex justify-around items-center">
+        <li>
+          <a href="#" class="font-bold text-[36px] tracking-[-6%] text-white">HubCom</a>
+        </li>
+        <li>  
+            <form class="w-[549px] h-14 rounded-[10px] bg-gray-3 text-blue-1 flex items-center justify-start gap-2">
+                <a class="ml-5" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <input class=" w-[475px] text-base focus:outline-none" maxlength="100"  placeholder="Buscar Cartas..." type="text">
+            </form>
+        </li>
+        <li class="flex gap-1.5">
+            <ul class="font-montserrat flex gap-4 justify-around items-center text-white w-[250px]">
+              <li>
+                <a class="group" href="#">
+                  Colecionávies
+                  <span class="block h-0.5 max-w-0 bg-blue-dark-1 group-hover:max-w-full transition-all duration-500"></span>
+                </a>
+              </li>
+              <li>
+                <a class="group" href="#">
+                  Leilões
+                  <span class="block h-0.5 max-w-0 bg-blue-dark-1 group-hover:max-w-full transition-all duration-500"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-cart-shopping hover:text-ash-1"></i></a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a class="pl-4 pr-4 pt-2.5 pb-2.5 bg-blue-1 rounded-[10px] hover:bg-blue-dark-2 transition-colors text-white" href="#">Entrar</a>
+              </li>
+            </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="w-full" id="root"></div>
+
+    <footer class="bg-black w-full h-66 mt-10 flex flex-col items-center justify-center gap-5 pb-5 text-ash-2">
+
+      <div class="flex items-center justify-center gap-22 ">
+        <ul class="underline">
+          <li><a href="#banner">Inicio</a></li>
+          <li><a href="#">Leilões</a></li>
+          <li><a href="#">Sobre nós</a></li>
+          <li><a href="#">Marketplace</a></li>
+        </ul>
+        
+        <ul class="underline">
+          <li><a href="#">Trocas</a></li>
+          <li><a href="#">Devoluções</a></li>
+          <li><a href="#">Assinaturas</a></li>
+          <li><a href="#">Contrato de Vendas</a></li>
+        </ul>
+        
+        <ul class="underline">
+          <li><a href="#">Regulamentos</a></li>
+          <li><a href="#">Termos e Condições</a></li>
+          <li><a href="#">Políticas de Cookies</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+
+        <div class="flex flex-col items-center justify-center gap-1">
+          <ul class="flex text-2xl gap-1">
+            <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="https://gmail.com"><i class="fa-solid fa-people-group"></i></a></li>
+          </ul>
+          <button class="p-7 pt-3 pb-3 bg-tag-yellow text-white rounded-[10px]">CONTATE-NOS</button>
+        </div>
+      </div>
+
+      <h4 class="text-white font-bold">© 2024 HubCom. Todos os direitos reservados.</h4>
+      
+    </footer>
+
     <script type="module" src="/src/main.jsx"></script>
     <script
       src="https://kit.fontawesome.com/ef4068945c.js"

@@ -6,7 +6,8 @@ export const ImgVariance = cva(`
     `, {
     variants: {
         size: {
-            card: "w-48 h-63",
+            sm: "w-48 h-63",
+            md: "w-92 h-128",
             banner: "h-full w-full"
         },
         cover: {
@@ -18,7 +19,7 @@ export const ImgVariance = cva(`
         }
     },
     defaultVariants: {
-        size: "card",
+        size: "sm",
         radius: "md"
     }
 })
