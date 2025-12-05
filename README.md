@@ -1,6 +1,10 @@
+
 # 🃏 Loja de Cartas e Hobbys
 
 Um projeto de **loja online** voltado para **cartas colecionáveis e hobbies**, desenvolvido com **React + Vite** e **TailwindCSS**.  
+
+> um projeto da faculdade de ADS, Feito sozinho e as pressas para as materias de Engenharia de Requisitos
+> Front-end, Banco de dado(não incluido no repositorio) e Ingles
 
 ## 🚀 Tecnologias Utilizadas
 
